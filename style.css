@@ -2,21 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins',sans-serif;
-}
-
-:root {
-  --black: #333;
-  --green: rgb(160, 139, 249);
-  --white: #fff;
-  --white2: #fff;
-  --black2: #333;
-}
-
-.dark {
-  --black: #fff;
-  --white: #113828;
-  --black2: #124e36;
+  font-family: 'Poppinss',sans-serif;
 }
 
 section {
@@ -25,9 +11,19 @@ section {
   min-height: 100vh;
   padding: 100px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  background: var(--white);
+  background: #161616;
+}
+
+section .circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #e51e2a;
+  clip-path: circle(70% at)
 }
 
 header {
@@ -35,164 +31,53 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 10px 100px;
+  padding: 40px 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 1000;
 }
 
 header .logo {
   position: relative;
-  max-width: 70px;
+  max-width: 150px;
 }
 
-header ul {
+header .navigation {
   position: relative;
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-header ul li {
-  list-style: none;
-  display: flex;
-  margin-left: 30px;
-}
 
-header ul li a {
-  display: inline-block;
-  color: var(--black);
-  font-weight: 500;
-  text-decoration: none;
-}
-
+/* 위에 치다가 멈춤 */
 .content {
   position: relative;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 2;
 }
 
-.content .textbox {
+.content .textBox {
   position: relative;
   max-width: 600px;
-  z-index: 2;
   margin-right: 20px;
 }
 
-.content .textbox h2 {
+.content .textBox h2 {
+  color: #fff;
   font-size: 3em;
-  color: var(--black);
+  margin-bottom: 10px;
   line-height: 1.4em;
   font-weight: 700;
-  margin-bottom: 10px;
 }
 
-.content .textbox h2 span {
-  font-size: 1.2em;
-  color: var(--green);
+.content .textBox p {
+  color: #fff;
 }
 
-.dark .content .textbox h2 span {
-  color: rgb(196, 155, 255);
-}
-
-.content .textbox p {
-  color: var(--black);
-}
-
-.content .textbox a {
+.content .textBox a {
   display: inline-block;
   margin-top: 20px;
   padding: 8px 20px;
-  background: var(--green);
-  color: var(--white2);
-  border-radius: 40px;
-  font-weight: 500;
-  letter-spacing: 1px;
-  text-decoration: none;
 }
-
-.content .imgbox {
-  position: relative;
-  width: 600px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.content .imgbox::before {
-  content: '';
-  position: absolute;
-  width: 400px;
-  height: 400px;
-  background: var(--green);
-  border-radius: 50%;
-}
-
-.content .imgbox img {
-  position: relative;
-  z-index: 1;
-  max-width: 400px;
-}
-
-/* .sci {
-  position: absolute;
-  bottom: 40px;
-  left: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.sci li {
-  list-style: none;
-}
-
-.sci li a {
-  margin-right: 15px;
-  width: 50px;
-  height: 50px;
-  background: var(--black2);
-  color: var(--white2);
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-}
-
-.sci li a .fa {
-  font-size: 1.2em;
-}
-
-.sci li a:hover {
-  background: var(--green);
-} */
-
-.themeSwitch {
-  position: relative;
-  width: 40px;
-  height: 40px;
-  background: var(--black);
-  border-radius: 50%;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.themeSwitch::before {
-  content: '\f186';
-  font-family: fontAwesome;
-  color: var(--white);
-  font-size: 20px;
-}
-
-.themeSwitch.active::before {
-  content: '\f185';
-}
-
+/*  */
