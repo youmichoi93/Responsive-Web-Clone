@@ -7,7 +7,7 @@
 
 :root {
   --black: #333;
-  --green: #017143;
+  --green: rgb(160, 139, 249);
   --white: #fff;
   --white2: #fff;
   --black2: #333;
@@ -97,7 +97,7 @@ header ul li a {
 }
 
 .dark .content .textbox h2 span {
-  color: #00ff9b;
+  color: rgb(196, 155, 255);
 }
 
 .content .textbox p {
@@ -118,7 +118,7 @@ header ul li a {
 
 .content .imgbox {
   position: relative;
-  width: 500px;
+  width: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -127,8 +127,8 @@ header ul li a {
 .content .imgbox::before {
   content: '';
   position: absolute;
-  width: 350px;
-  height: 350px;
+  width: 400px;
+  height: 400px;
   background: var(--green);
   border-radius: 50%;
 }
@@ -136,10 +136,10 @@ header ul li a {
 .content .imgbox img {
   position: relative;
   z-index: 1;
-  max-width: 350px;
+  max-width: 400px;
 }
 
-.sci {
+/* .sci {
   position: absolute;
   bottom: 40px;
   left: 100px;
@@ -171,7 +171,7 @@ header ul li a {
 
 .sci li a:hover {
   background: var(--green);
-}
+} */
 
 .themeSwitch {
   position: relative;
@@ -195,3 +195,4 @@ header ul li a {
 .themeSwitch.active::before {
   content: '\f185';
 }
+
