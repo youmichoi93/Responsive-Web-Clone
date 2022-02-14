@@ -167,8 +167,8 @@ justify-content: center;
   max-height: 100%;
 }
 
-.swiper-container-3d  .swiper-slide-shadow-left, 
-.swiper-container-3d  .swiper-slide-shadow-right, {
+.swiper-3d .swiper-slide-shadow-right,
+.swiper-3d .swiper-slide-shadow-left {
   background-image: none;
 }
 
@@ -186,7 +186,7 @@ justify-content: center;
     flex-direction: column;
   }
   .content .textBox,
-  .content.imgBox {
+  .content .imgBox {
     max-width: 100%;
   }
   .swiper-slide {
@@ -196,13 +196,13 @@ justify-content: center;
     display: none;
   }
   header .navigation .active {
-    display: flex;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background: #e51e2a;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
