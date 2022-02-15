@@ -3,82 +3,124 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Blake's cocacola</title>
-    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <title>complete web -1</title> 
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
-
   <body>
-  <section>
-    <div class="circle"></div>
-    <header>
-      <a href="#"><img src="logo.png" class="logo"></a>
-      <div class="toggle" onclick="toggleMenu()"></div>
-    <ul class="navigation">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Menu</a></li>
-      <li><a href="#">Contact</a></li>
-      <li><a href="#">What's New</a></li>
-    </ul>
-    </header>
-    <div class="content">
-      <div class="textBox">
-        <h2>Taste the Feeling</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, necessitatibus voluptates.Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, necessitatibus voluptates.</p>
-        <a href="#">Learn More</a>
+    <!-- Banner -->
+    <div class="banner">
+      <header>
+        <a href="#" class="logo">Brand Name</a>
+        <div class="toggle"></div>
+      </header>
+       <img src="bg.jpg" alt="banner">
+      <div class="content">
+        <h2>Hello Hello</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quae debitis provident nobis amet laborum iure ipsam in, harum, quidem est laboriosam ab at fugit neque exercitationem recusandae rerum laudantium!</p>   
       </div>
-      <div class="imgBox">
-        <div class="swiper-container">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="cocacola1.png" /></div>
-            <div class="swiper-slide"><img src="cocacola2.png" /></div>
-            <div class="swiper-slide"><img src="cocacola3.png" /></div>
-            <div class="swiper-slide"><img src="cocacola4.png" /></div>
-            <div class="swiper-slide"><img src="cocacola5.png" /></div>
-            <div class="swiper-slide"><img src="cocacola6.png" /></div>
-          </div>
-      </div>
-     </div>
-
-
     </div>
-    <ul class="sci">
-      <li><a href="#"><img src="facebook.png" alt=""></a></li>
-      <li><a href="#"><img src="twitter.png" alt=""></a></li>
-      <li><a href="#"><img src="instagram.png" alt=""></a></li>
-    </ul>
-  </section>
-  <!-- Swiper JS -->
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- About -->
+      <section class="about">
+        <div class="contentBx">
+          <h2 class="heading"About Us></h2>
+          <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores rerum temporibus recusandae tempora dolor, quibusdam vero aspernatur id laboriosam, iure quos nemo unde voluptas rem quas ut. Odit, beatae quasi!<br><br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas ex ad perspiciatis dolor voluptate soluta debitis voluptatibus unde enim illum. Esse doloremque molestiae et explicabo dolor tenetur, eligendi cumque illo?</p>
+        </div>
+        <div class="imgBx"></div>
+      </section>
+      <!-- Servives -->
+      <section class="services">
+        <h2 class="heading">Our Services</h2>
+        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia voluptatibus deleniti cum eaque. Itaque beatae ipsa rem amet repellendus impedit ut, expedita quos architecto aperiam quam alias. Explicabo, aliquam magni.</p>
+        <div class="container">
+          <div class="serviceBx">
+            <div>
+              <img src="icon1.png">
+              <h2>Design</h2>
+            </div>
+          </div>
+          <div class="serviceBx">
+            <div>
+              <img src="icon2.png">
+              <h2>Development</h2>
+            </div>
+          </div>
+          <div class="serviceBx">
+            <div>
+              <img src="icon3.png">
+              <h2>Branding</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Technology -->
+      <section class="technology">
+        <div class="contetnBx">
+          <h2 class="heading">We use cutting edgetechnology</h2>
+          <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis tempore doloremque adipisci quia rerum ullam iusto, in mollitia saepe voluptates, enim aliquam consequuntur vel deserunt, aliquid suscipit soluta eveniet accusantium?</p>
+        </div>
+        <div class="imgBx">
+          <img src="tech.png">
+        </div>
+      </section>
 
-  <!-- Initialize Swiper -->
-  <script>
-      var swiper = new Swiper(".swiper-container", {
-        effect: "coverflow",
-        grabCursor: true,
-        centeredSlides: true,
-        slidesPerView: "auto",
-        coverflowEffect: {
-          rotate: 0,
-          stretch: 0,
-          depth: 200,
-          modifier: 1,
-          slideShadows: true,
-        },
-        pagination: {
-          el: ".swiper-pagination",
-        },  
-        loop:true,
-      });
+      <!-- Client -->
+      <section class="client">
+        <h2 class="heading">Our Client</h2>
+        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis tempore doloremque adipisci quia rerum ullam iusto, in mollitia saepe voluptates, enim aliquam consequuntur vel deserunt, aliquid suscipit soluta eveniet accusantium?</p>
+        <div class="imgBx">
+          <img src="brand1.png">
+          <img src="brand2.png">
+          <img src="brand3.png">
+          <img src="brand4.png">
+        </div>
+      </section>
+      <!-- Testimonials -->
+      <section class="testimonials">
+        <h2 class="heading">What our Client says</h2>
+        <div class="container">
+          <div class="contentBx">
+            <div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, placeat tempore ut dicta quo repellat, a ea tenetur fugiat consequatur aperiam veniam ad itaque officiis fugit ipsa. Pariatur, aperiam autem.</p><br>
+              <h3>Someone Famous</h3>
+            </div>
+          </div>
+          <div class="contentBx">
+            <div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, placeat tempore ut dicta quo repellat, a ea tenetur fugiat consequatur aperiam veniam ad itaque officiis fugit ipsa. Pariatur, aperiam autem.</p><br>
+              <h3>Someone Famous</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact -->
+      <section class="contact">
+        <h2 class="heading">Contact us</h2>
+        <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat delectus, tempora recusandae eaque soluta dolorum temporibus incidunt iusto laudantium dolore similique tempore iure voluptas magnam minus inventore possimus consequatur praesentium.</p>
+      </section>
 
-
-      function toggleMenu(){
-        const menuToggle = document.querySelector('.toggle');
-        const navigation = document.querySelector('.navigation')
-        menuToggle.classList.toggle('active')
-        navigation.classList.toggle('active')
-      }
-    </script>
+      <section class="about">
+        <div class="contentBx redbg">
+          <div class="form">
+            <div class="inputBx">
+              <input type="text" name="" placeholder="Full Name">
+            </div>
+            <div class="inputBx">
+              <input type="text" name="" placeholder="Email Address">
+            </div>
+            <div class="inputBx">
+              <input type="text" name="" placeholder="Mobile">
+            </div>
+            <div class="inputBx">
+              <textarea placeholder="Write your message here"></textarea>
+            </div>
+            <div class="inputBx">
+              <input type="text" name="" value="Send">
+            </div>
+          </div>
+        </div>
+        <div class="imgBx imgBx2"></div>
+      </section>
+      <!-- Footer -->
+   
   </body>
-
 </html>
