@@ -1,12 +1,12 @@
 /* Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@1,300&family=Luxurious+Roman&family=Oswald:wght@200;400&family=Roboto:ital,wght@1,100;1,900&family=Zen+Kurenaido&display=swap');
 
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Jost', sans-serif;
-}
+} */
 
 .banner {
   position: relative;
